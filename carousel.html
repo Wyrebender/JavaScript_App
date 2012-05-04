@@ -1,0 +1,124 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="author" content="Franco Haley" />
+		<meta name="keywords" content="Scripting for Wwb Applications, JavaScript" />
+		<meta name="description" content="Website for June 2011 Scripting for Web Applications lab assignments." />
+		
+		<title>Franco Haley - 06/11 Scripting for Web Applications</title>
+		
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+		
+		<script type="text/javascript" src="js/Jcoda.js"></script>
+		<script type="text/javascript">
+		
+		//Extra Credit Lab (Carousel) JavaScript Document
+		Jcoda.domReady(function(){						 
+			news={
+				
+				item1:{
+					image:"images/large/01.jpg",
+					title: " 1 This is the Title",
+					detail:" 1 This is the detail",
+					text:"Unprecedented demonstrations sweeping the Middle East and North Africa spread Wednesday to Libya, where police clashed with anti-government protesters in the coastal city of Benghazi, an independent source told CNN."
+					},
+				item2:{
+					image:"images/large/02.jpg",
+					title: " 2 This is the Title",
+					detail:" 2 This is the detail",
+					text:"Photo: AP Iran's clerical establishment has called for a major rally in Tehran on Friday, to express what it calls its hatred of reformists who organized a day of major anti-government protests earlier this week."
+					},
+				item3:{
+					image:"images/large/03.jpg",
+					title: " 3 This is the Title",
+					detail:" 3 This is the detail",
+					text:"CHARLESTON, West Virginia (Reuters) - Three deputy US Marshals were shot on Wednesday as they were serving an arrest warrant at a home in West Virginia, a spokesman for the US Marshals Service said."
+					},
+				item4:{
+					image:"images/large/04.jpg",
+					title: " 4 This is the Title",
+					detail:" 4 This is the detail",
+					text:"Choreographer Laurieanne Gibson opens up about Gaga's vision for the song and video on 'The Seven.' By Jocelyn Vena (@jocelyn1212) Following Lady Gaga's performance of Born This Way at the Grammy Awards on Sunday, fans are wondering what they will ..."
+					},
+				item5:{
+					image:"images/large/05.jpg",
+					title: " 5 This is the Title",
+					detail:" 5 This is the detail",
+					text:"The deadline for the St. Louis Cardinals and Albert Pujols to reach agreement on a contract extension passed today at noon, and the game's most prolific hitter of this century is prepared to hit the free agent market after ..."
+					}
+				};
+		
+			//**call for carousel here.**
+			Jcoda.carousel({
+				carouselcontainer: Jcoda.$("#myCarousel"),
+				nextbutton: Jcoda.$("#next"),
+				previousbutton: Jcoda.$("#previous"),
+				imagewidth: 500,
+				imageheight: 400,
+				items: news,
+				titleelement: Jcoda.$("#carouselTitle"),
+				detailelement: Jcoda.$("#carouselDetail"),
+				textelement: Jcoda.$("#carouselText")
+			});
+		});
+	</script>
+</head>
+	
+	<body>
+		
+	<div id="container">
+		<div id="logo">
+			<h1><a href="index.html">FWH Logo</a></h1>
+		</div><!--/logo-->
+		
+		<div id="header">
+			<h1>Scripting for Web Applications - 06/11</h1>
+			<h2>Franco W. Haley</h2>
+		</div><!--/header-->
+		
+		<div id="nav">
+			<ul>
+				<li class="first_linkBtn"><a href="index.html">Gallery</a></li>
+				<li class="linkBtn"><a href="form.html">Form</a></li>
+				<li class="linkBtn"><a href="blog.html">Blog</a></li>
+				<li class="current_page_leftMargin">Carousel</li>
+				<li class="last_linkBtn"><a href="autocompleter.html">Autocompleter</a></li>
+			</ul>
+		</div><!--/nav-->
+		
+		<div id="content">
+			<div id="carousel_header" class="header_style">
+				<h3>Carousel Column</h3>
+			</div><!--/carousel_header-->
+			
+			<div id="carousel" class="box_style">
+				<div id="context_carousel">
+				
+					<div id="matte">
+                		<ul id="myCarousel" style="margin-left:0px;"><li></li></ul>
+                   		<div id="carouselTitle" style=""></div>
+                    	<div id="carouselDetail"></div>
+					</div><!-- /matte -->
+					
+					<div id="carouselText"></div>
+
+					<div id="buttons">
+						<ul>
+							<li id="previous"><a href="#">Previous</a></li>
+							<li id="next"><a href="#">Next</a></li>
+						</ul>
+						<!--<div id="previous"><button style="width:70px">Previous</button></div><div id="next"><button style="width:70px">Next</button></div>-->
+					</div><!-- /buttons -->					
+				</div><!-- /context_carousel -->
+			</div><!--/carousel-->
+			
+		</div><!--/div content-->
+		
+		<div id="footer">
+			<p>&copy; FWH Site 2011</p>
+		</div><!--/div footer-->
+		<div class="footer_space"><p>&nbsp;</p></div><!--/div footer_space-->
+	</div><!--/div container-->
+	</body>
+</html>
