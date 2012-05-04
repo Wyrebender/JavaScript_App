@@ -1,0 +1,45 @@
+/*Scripting For Web Applications - Form CSS Document*/
+
+#blog_context {
+	padding: 10px;
+	width: 600px;
+	margin: 0 auto;
+	float: none;
+	clear: left;
+	line-height: 18px;
+}
+#blog_context h2 {
+	color: #184F8C;
+	font-size: 16px;
+	font-weight: bold;
+}
+#content_nav {
+	margin-left: 15px;
+	line-height: 25px;
+	font-weight: bold;
+	text-align: center;
+}
+#content_nav li {float: left;}
+#mikes_post {margin-left: 7px;}
+#postgroup {margin-left: 97px;}
+#post_limit {height: 28px;}
+#titleInput { 
+	margin-top: 2px;
+	margin-left: 7px;
+	height: 22px;
+}
+#searchBtn {
+	float: none;
+	margin-left: 7px;
+}
+
+/*----Blog Class Attribute Style----*/
+.postAuthor{
+	width: 200px;
+	font-weight: bold;
+}
+.postTitle{width: 200px;}
+.postDate {
+	width: 200px;
+	border-width: 200px;
+}

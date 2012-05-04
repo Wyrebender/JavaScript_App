@@ -1,0 +1,49 @@
+/*Scripting For Web Applications - Form CSS Document*/
+
+/*----Form ID Attribute Style----*/
+#form_fields, #form_fields2 {
+	margin-bottom: 20px;
+	border-style: none;
+	margin: 0px 0px 0px 85px;
+	width: 520px;
+}
+
+#register_button, #form_seperator {
+	line-height: 25px;
+	font-weight: bold;
+	text-align: center;
+	clear: left;
+	margin-left: 25px;
+}
+#legend {
+	font-style: italic;
+	color: #ff0d21;
+	width: 300px;
+	padding: 10px;
+	list-style-type: none;
+}
+
+/*----Form Class Attribute Style----*/
+.lastLine {
+	width: 190px;
+	height: 50px;
+	padding: 10px;
+	list-style-type: none;
+	float: left;
+	margin: 0px 15px;
+	clear: left;
+}
+.formhilite {
+	height: 50px;
+	background-color: #F0F6FF;
+}
+.line {
+	width: 210px;
+	height: 50px;
+	padding: 10px;
+	list-style-type: none;
+	float: left;
+	margin: 0px 15px;
+}
+.input_req, .input_error {color: #ff0d21;}
+.input_req.vertified {color: #00b60f;}

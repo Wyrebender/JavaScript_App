@@ -1,0 +1,53 @@
+/* Capture Moments (Autocompleter) CSS Document  */
+
+#autocompleter_context {
+	background-color: #E1E1E1;
+	padding: 40px;
+	position: relative;
+	width: 300px;
+	border-color: #383838;
+	margin: 0 auto;
+}
+
+.textfield, textarea, button {margin-bottom: 10px;}
+
+textarea {
+	height: 200px;
+	width: 300px;
+}
+
+.textfield {width: 300px;}
+
+/*button {padding: 10px;}*/
+
+#messageArea {
+	margin-top: -5px;
+	position: absolute;
+	z-index: 0;
+	background-color: #ffffff;
+	width: 305px;
+}
+
+.emailItem {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+}
+.nameItem {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	border-style: none;
+	color: #5e5e5e;
+}
+
+.friendsItem {
+	margin-right: 5px;
+	margin-left: 5px;
+	margin-top: 5px;
+	color: #555555;
+	font-size: 10px;
+	text-align: right;
+}
+
+.dataSelect:hover { background-color: #F0F6FF; }
