@@ -1,0 +1,117 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+		<meta name="author" content="Franco Haley" />
+		<meta name="keywords" content="Scripting for Wwb Applications, JavaScript" />
+		<meta name="description" content="Website for June 2011 Scripting for Web Applications lab assignments." />
+		
+		<title>Franco Haley - 06/11 Scripting for Web Applications</title>
+
+		<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+		<script type="text/javascript" src="js/Jcoda.js"></script>
+		<script type="text/javascript" src="js/lab5.js"></script>
+</head>
+	
+	<body>
+		
+	<div id="container">
+		<div id="logo">
+			<h1><a href="index.html">FWH Logo</a></h1>
+		</div><!--/logo-->
+		
+		<div id="header">
+			<h1>Scripting for Web Applications - 06/11</h1>
+			<h2>Franco W. Haley</h2>
+		</div><!--/header-->
+		
+		<div id="nav">
+			<ul>
+				<li class="first_linkBtn"><a href="index.html">Gallery</a></li>
+				<li class="current_page_leftMargin">Form</li>
+				<li class="linkBtn"><a href="blog.html">Blog</a></li>
+				<li class="linkBtn"><a href="carousel.html">Carousel</a></li>
+				<li class="last_linkBtn"><a href="autocompleter.html">Autocompleter</a></li>
+			</ul>
+		</div><!--/nav-->
+		
+		<div id="content">
+			<div id="form_header" class="header_style">
+				<h3>Registration Form</h3>
+			</div><!--/form_header-->
+			
+			<div id="form" class="box_style">
+					<form id="form_fields" action="..." method="post">
+						<ul> 
+							<li id="legend"><label>* = required fields</label></li>
+							<li id="fnLine" class="line">
+								<label>First Name:</label><br />
+								<input type="text" id="fNameInput" class="text required"/>
+								<span class="input_req" id="fNameInput_req">*</span><br />
+								<span class="input_error" id="fNameInput_error"></span>
+							</li>
+							<li  id="lnLine" class="line">
+								<label>Last Name:</label><br />
+								<input type="text" id="lNameInput" class="text"/><br />
+								<span  id="lNameInput_error" class="input_error"></span>
+							</li>
+							<li id="unLine" class="lastLine">
+								<label>Username:</label><br />
+								<input type="text" id="userNameInput" class="username required"/>
+								<span id="userNameInput_req" class="input_req">*</span><br />
+								<span  id="userNameInput_error" class="input_error"></span>
+							</li>
+							<li id="form_seperator"></li><!--prevent div from breaking by using 'register_button class'-->
+						</ul>
+					</form><!--/form_fields-->
+					
+					<form id="form_fields2" action="..." method="post">
+						<ul> 
+							<li id="passLine" class="line">
+								<label>Password:</label><br />
+								<input type="password" id="passwordInput" class="password "/>
+								<span id="passwordInput_req" class="input_req">*</span><br />
+								<span  id="passwordInput_error" class="input_error"></span>
+							</li>
+							<li id="repassLine" class="line">
+								<label>Retype Password:</label><br />
+								<input type="password" id="retypePassInput" class="retype_password "/>
+								<span id="retypePassInput_req" class="input_req">*</span><br />
+								<span  id="retypePassInput_error" class="input_error"></span>
+							</li>
+							<li id="emailLine" class="line">
+								<label>Email:</label><br />
+								<input type="text" id="emailInput" class="email required"/>
+								<span id="emailInput_req" class="input_req">*</span><br />
+								<span  id="emailInput_error" class="input_error"></span>
+							</li>
+							<li id="reemailLine" class="line">
+								<label>Retype Email:</label><br />
+								<input type="text" id="retypeEmailInput" class="retype_email required"/>
+								<span id="retypeEmailInput_req" class="input_req">*</span><br />
+								<span  id="retypeEmailInput_error" class="input_error"></span>
+							</li>
+							<li id="websiteLine" class="line">
+								<label>Website:</label><br />
+								<input type="text" id="websiteInput" class="website"/><br />
+								<span  id="websiteInput_error" class="input_error"></span>
+							</li>
+							<li id="phoneLine" class="line">
+								<label>Phone:</label><br />
+								<input type="text" id="phoneInput" class="phone"/><br />
+								<span  id="phoneInput_error" class="input_error"></span>
+							</li>
+							<li id="register_button"><a href="#">Register</a></li>
+						</ul>
+					</form><!--/form_fields2-->
+			</div><!--/form-->
+		</div><!--/div content-->
+		
+		<div id="footer">
+			<p>&copy; FWH Site 2011</p>
+		</div><!--/div footer-->
+		<div class="footer_space"><p>&nbsp;</p></div><!--/div footer_space-->
+	</div><!--/div container-->
+	</body>
+</html>
