@@ -1,0 +1,74 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Strict//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-strict.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+		<meta http-equiv="Content-Type" content="text/html; charset=UTF-8" />
+<meta name="author" content="Franco Haley" />
+		<meta name="keywords" content="Scripting for Wwb Applications, JavaScript" />
+		<meta name="description" content="Website for June 2011 Scripting for Web Applications lab assignments." />
+		
+<title>Franco Haley - 06/11 Scripting for Web Applications</title>
+
+<link href="css/main.css" rel="stylesheet" type="text/css" />
+
+<script type="text/javascript" src="js/Jcoda.js"></script>
+<script type="text/javascript" src="js/lab6.js"></script>
+
+</head>
+	
+	<body>
+	<div id="container">
+		<div id="logo">
+			<h1><a href="index.html">FWH Logo</a></h1>
+		</div><!--/logo-->
+		
+		<div id="header">
+			<h1>Scripting for Web Applications - 06/11</h1>
+			<h2>Franco W. Haley</h2>
+		</div><!--/header-->
+		
+		<div id="nav">
+			<ul>
+				<li class="first_linkBtn"><a href="index.html">Gallery</a></li>
+				<li class="linkBtn"><a href="form.html">Form</a></li>
+				<li class="current_page_leftMargin">Blog</li>
+				<li class="linkBtn"><a href="carousel.html">Carousel</a></li>
+				<li class="last_linkBtn"><a href="autocompleter.html">Autocompleter</a></li>
+			</ul>
+		</div><!--/nav-->
+		
+		<div id="content">
+			<div id="blog_header" class="header_style">
+				<h3>Site Blog</h3>
+			</div><!--/blog_header-->
+			
+			<div id="blog" class="box_style">
+				<div id="content_nav">
+					<ul>
+						<li><a href="#" id="allpost">All Post</a></li>
+						<li><a href="#" id="mikes_post">Mike's Post</a></li>
+						<li id="postgroup">
+							<select id="post_limit">
+								<option value="3">3</option>
+								<option value="5">5</option>
+								<option value="10">10</option>
+							</select>
+						</li>
+						<li><input id="titleInput"></input></li>
+						<li><a href="#" id="searchBtn">Title Search</a></li>
+					</ul>
+				</div><!-- /content_nav -->
+				
+				<!-- AJAX Dynamic content here -->
+				<div id="blog_context"><!-- dynamic text goes here --></div><!-- /blog_context -->				
+			</div><!--/blog-->	
+					
+		</div><!--/div content-->
+		
+		<div id="footer">
+			<p>&copy; FWH Site 2011</p>
+		</div><!--/div footer-->
+		
+		<div class="footer_space"><p>&nbsp;</p></div><!--/footer_space-->
+	 </div><!-- /container -->
+	</body>
+</html>
